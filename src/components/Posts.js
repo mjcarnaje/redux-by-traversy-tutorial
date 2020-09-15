@@ -7,6 +7,7 @@ class Posts extends Component {
 	componentDidMount() {
 		this.props.fetchPosts();
 	}
+
 	render() {
 		const postItems = this.props.posts.map((post) => {
 			return (
